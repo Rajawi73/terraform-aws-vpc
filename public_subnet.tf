@@ -9,4 +9,5 @@ resource "aws_subnet" "public1" {
   resource "aws_subnet" "public3" {
   vpc_id     = aws_vpc.main.id
   cidr_block = var.vpc_subnets.cidr[2]
+  
 }
